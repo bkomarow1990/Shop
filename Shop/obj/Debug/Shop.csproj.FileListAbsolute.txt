@@ -1,0 +1,15 @@
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\Shop.exe.config
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\Shop.exe
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\Shop.pdb
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\DAL.dll
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\EntityFramework.dll
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\DAL.pdb
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\DAL.dll.config
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\EntityFramework.xml
+C:\Users\Igor\source\repos\Shop\Shop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Igor\source\repos\Shop\Shop\obj\Debug\Shop.csproj.AssemblyReference.cache
+C:\Users\Igor\source\repos\Shop\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\Shop\Shop\obj\Debug\Shop.csproj.CopyComplete
+C:\Users\Igor\source\repos\Shop\Shop\obj\Debug\Shop.exe
+C:\Users\Igor\source\repos\Shop\Shop\obj\Debug\Shop.pdb

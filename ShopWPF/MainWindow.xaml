@@ -1,0 +1,38 @@
+﻿<Window x:Class="ShopWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShopWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="showProductsBtn" Grid.Column="0" Click="showProductsBtn_Click" >SHOW PRODUCTS</Button>
+            <Button Grid.Column="1">SHOW WORKERS</Button>
+        </Grid>
+        <Frame Name="MainFrame" Background="White" NavigationUIVisibility="Automatic" Grid.Row="1"></Frame> 
+        <Button Grid.Row="2" Name="backBtn" Click="backBtn_Click" >BACK</Button>
+
+        <!--<DataGrid x:Name="shopsDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True"
+                    ItemsSource="{Binding}" Margin="13,13,43,191"
+                    RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="categoryIdColumn" Binding="{Binding CategoryId}"
+                                    Header="Category Id" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="nameColumn" Binding="{Binding Name}"
+                                    Header="Name" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>-->
+    </Grid>
+</Window>
