@@ -18,5 +18,9 @@ namespace DAL.Entities
         //Navigation
         public virtual Shop Shop { get; set; }
         public virtual Position Position { get; set; }
+        public override string ToString()
+        {
+            return $"Name: {Name}, Surname: {Surname}, Salary: {Salary}, Email: {Email}, PhoneNumber: {PhoneNumber}, Position: {Position.Name}";
+        }
     }
 }

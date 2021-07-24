@@ -17,23 +17,18 @@ using System.Windows.Shapes;
 namespace ShopWPF.SubMainFrames
 {
     /// <summary>
-    /// Interaction logic for ProductsPage.xaml
+    /// Interaction logic for WorkersPage.xaml
     /// </summary>
-    public partial class ProductsPage : Page
+    public partial class WorkersPage : Page
     {
         ViewModel vm;
-        public ProductsPage(ViewModel vm, Shop shop)
+        public WorkersPage(ViewModel vm, Shop shop)
         {
             InitializeComponent();
             this.vm = vm;
             //var products = (from e in vm.Context.Products where e.Shops.Any(el => el.Id == shop.Id) select new { e.Id, CategoryName = e.Category.Name, e.Name, e.Price, e.Quantity }).ToList();
-            var products = vm.Context.Products.ToList().Where(e => e.Shops.Contains(shop)).ToList();
-            if (products == null)
-            {
-                MessageBox.Show("Null");
-                return;
-            }
-            this.ProductsListBox.ItemsSource = products;
+            var workers = vm.Context.Workers.ToList().Where(e => e.Shop == shop).ToList();
+            this.WorkersListBox.ItemsSource = workers;
         }
     }
 }

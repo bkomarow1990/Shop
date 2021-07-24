@@ -19,7 +19,7 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Button x:Name="showProductsBtn" Grid.Column="0" Click="showProductsBtn_Click" >SHOW PRODUCTS</Button>
-            <Button Grid.Column="1">SHOW WORKERS</Button>
+            <Button Grid.Column="1" x:Name="showWorkersBtn" Click="showWorkersBtn_Click">SHOW WORKERS</Button>
         </Grid>
         <Frame Name="MainFrame" Background="White" NavigationUIVisibility="Automatic" Grid.Row="1"></Frame> 
         <Button Grid.Row="2" Name="backBtn" Click="backBtn_Click" >BACK</Button>

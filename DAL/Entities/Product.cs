@@ -17,5 +17,9 @@ namespace DAL.Entities
         //Navigation
         public virtual Category Category { get; set; }
         public virtual ICollection<Shop> Shops { get; set; }
+        public override string ToString()
+        {
+            return $"Name: {Name}, Price: {Price}, Discount: {Discount}, Category: {Category.Name}, Quantity: {Quantity}, IsInStock: {IsInStock}";
+        }
     }
 }

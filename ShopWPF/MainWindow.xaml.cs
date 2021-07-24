@@ -42,5 +42,10 @@ namespace ShopWPF
         {
             MainFrame.Content = new ProductsPage(vm, mainPage.ShopsListBox.SelectedItem as Shop);
         }
+
+        private void showWorkersBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new WorkersPage(vm, mainPage.ShopsListBox.SelectedItem as Shop);
+        }
     }
 }

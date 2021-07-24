@@ -11,7 +11,7 @@
             <DockPanel>
                 <Label VerticalAlignment="Top" HorizontalAlignment="Center" FontFamily="Helvetica" FontWeight="Bold" FontSize="24" DockPanel.Dock="Top">PRODUCTS:
                 </Label>
-                <DataGrid Name="ProductsDataGrid" IsReadOnly="False"  Margin="0,24,0,0" DockPanel.Dock="Top"></DataGrid>
+            <ListBox Name="ProductsListBox"  Margin="0,24,0,0" DockPanel.Dock="Top"></ListBox>
             </DockPanel>
         </Grid>
 </Page>

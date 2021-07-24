@@ -25,3 +25,5 @@ C:\Users\Igor\source\repos\Shop\ShopWPF\obj\Debug\SubMainFrames\MainPage.g.cs
 C:\Users\Igor\source\repos\Shop\ShopWPF\obj\Debug\SubMainFrames\MainPage.baml
 C:\Users\Igor\source\repos\Shop\ShopWPF\obj\Debug\SubMainFrames\ProductsPage.g.cs
 C:\Users\Igor\source\repos\Shop\ShopWPF\obj\Debug\SubMainFrames\ProductsPage.baml
+C:\Users\Igor\source\repos\Shop\ShopWPF\obj\Debug\SubMainFrames\WorkersPage.g.cs
+C:\Users\Igor\source\repos\Shop\ShopWPF\obj\Debug\SubMainFrames\WorkersPage.baml
